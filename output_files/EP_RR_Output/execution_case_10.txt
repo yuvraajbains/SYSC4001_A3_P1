@@ -1,0 +1,55 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 20 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                 5 | 10 |   RUNNING |   WAITING |
+|                 5 | 20 |     READY |   RUNNING |
+|                10 | 10 |   WAITING |     READY |
+|                10 | 20 |   RUNNING |     READY |
+|                10 | 10 |     READY |   RUNNING |
+|                15 | 10 |   RUNNING |   WAITING |
+|                15 | 20 |     READY |   RUNNING |
+|                20 | 10 |   WAITING |     READY |
+|                20 | 20 |   RUNNING |     READY |
+|                20 | 10 |     READY |   RUNNING |
+|                25 | 10 |   RUNNING |   WAITING |
+|                25 | 20 |     READY |   RUNNING |
+|                30 | 10 |   WAITING |     READY |
+|                30 | 20 |   RUNNING |     READY |
+|                30 | 10 |     READY |   RUNNING |
+|                35 | 10 |   RUNNING |   WAITING |
+|                35 | 20 |     READY |   RUNNING |
+|                40 | 10 |   WAITING |     READY |
+|                40 | 20 |   RUNNING |     READY |
+|                40 | 10 |     READY |   RUNNING |
+|                45 | 10 |   RUNNING |   WAITING |
+|                45 | 20 |     READY |   RUNNING |
+|                50 | 10 |   WAITING |     READY |
+|                50 | 20 |   RUNNING |     READY |
+|                50 | 10 |     READY |   RUNNING |
+|                55 | 10 |   RUNNING |   WAITING |
+|                55 | 20 |     READY |   RUNNING |
+|                60 | 10 |   WAITING |     READY |
+|                60 | 20 |   RUNNING |     READY |
+|                60 | 10 |     READY |   RUNNING |
+|                65 | 10 |   RUNNING |   WAITING |
+|                65 | 20 |     READY |   RUNNING |
+|                70 | 10 |   WAITING |     READY |
+|                70 | 20 |   RUNNING |     READY |
+|                70 | 10 |     READY |   RUNNING |
+|                75 | 10 |   RUNNING |   WAITING |
+|                75 | 20 |     READY |   RUNNING |
+|                80 | 10 |   WAITING |     READY |
+|                80 | 20 |   RUNNING |     READY |
+|                80 | 10 |     READY |   RUNNING |
+|                85 | 10 |   RUNNING |   WAITING |
+|                85 | 20 |     READY |   RUNNING |
+|                90 | 10 |   WAITING |     READY |
+|                90 | 20 |   RUNNING |     READY |
+|                90 | 10 |     READY |   RUNNING |
+|                95 | 10 |   RUNNING |TERMINATED |
+|                95 | 20 |     READY |   RUNNING |
+|               100 | 20 |   RUNNING |TERMINATED |
++------------------------------------------------+

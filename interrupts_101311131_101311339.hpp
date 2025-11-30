@@ -1,6 +1,6 @@
 /**
  * @file interrupts.hpp
- * @author Sasisekhar Govind
+ * @author Sasisekhar Govind, Yuvraj Bains, James Bian
  * @brief template main.cpp file for Assignment 3 Part 1 of SYSC4001
  * 
  */
@@ -313,6 +313,40 @@ void idle_CPU(PCB &running) {
     running.size = 0;
     running.state = NOT_ASSIGNED;
     running.PID = -1;
+}
+
+//This was implemented for the bonus
+//I could have implemented inside of each indivudal cpp file but decided this was the best and most simple course
+//of action since I could reference it directly inside all the others files
+
+std::string get_memory_status(unsigned int current_time) {
+    std::stringstream ss;
+    unsigned int total_used_mem = 0;
+    unsigned int total_free_mem = 0;
+
+    ss << "Time: " << current_time << "\n"
+       << "Partition Status:\n";
+
+    for (const auto& part : memory_paritions) {
+        ss << "  Part " << part.partition_number 
+           << " [" << part.size << "MB]: ";
+        
+        if (part.occupied != -1) {
+            ss << "Occupied by PID " << part.occupied;
+            total_used_mem += part.size;
+        } else {
+            ss << "Free";
+            total_free_mem += part.size;
+        }
+        ss << "\n";
+    }
+
+    ss << "Stats:\n"
+       << "  Total Memory Used: " << total_used_mem << " MB\n"
+       << "  Total Free Memory: " << total_free_mem << " MB\n"
+       << "--------------------------------------------------\n";
+
+    return ss.str();
 }
 
 #endif

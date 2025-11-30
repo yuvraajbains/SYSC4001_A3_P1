@@ -1,0 +1,61 @@
+--- Memory Usage Log ---
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Occupied by PID 1
+Stats:
+  Total Memory Used: 2 MB
+  Total Free Memory: 98 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Occupied by PID 2
+  Part 6 [2MB]: Occupied by PID 1
+Stats:
+  Total Memory Used: 10 MB
+  Total Free Memory: 90 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Occupied by PID 3
+  Part 5 [8MB]: Occupied by PID 2
+  Part 6 [2MB]: Occupied by PID 1
+Stats:
+  Total Memory Used: 20 MB
+  Total Free Memory: 80 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Occupied by PID 4
+  Part 4 [10MB]: Occupied by PID 3
+  Part 5 [8MB]: Occupied by PID 2
+  Part 6 [2MB]: Occupied by PID 1
+Stats:
+  Total Memory Used: 35 MB
+  Total Free Memory: 65 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Occupied by PID 5
+  Part 3 [15MB]: Occupied by PID 4
+  Part 4 [10MB]: Occupied by PID 3
+  Part 5 [8MB]: Occupied by PID 2
+  Part 6 [2MB]: Occupied by PID 1
+Stats:
+  Total Memory Used: 60 MB
+  Total Free Memory: 40 MB
+--------------------------------------------------

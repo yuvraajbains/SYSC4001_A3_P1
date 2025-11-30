@@ -1,0 +1,69 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 20 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|               100 | 10 |   RUNNING |     READY |
+|               100 | 20 |     READY |   RUNNING |
+|               110 | 20 |   RUNNING |   WAITING |
+|               110 | 10 |     READY |   RUNNING |
+|               120 | 20 |   WAITING |     READY |
+|               210 | 10 |   RUNNING |TERMINATED |
+|               210 | 20 |     READY |   RUNNING |
+|               220 | 20 |   RUNNING |   WAITING |
+|               230 | 20 |   WAITING |     READY |
+|               230 | 20 |     READY |   RUNNING |
+|               240 | 20 |   RUNNING |   WAITING |
+|               250 | 20 |   WAITING |     READY |
+|               250 | 20 |     READY |   RUNNING |
+|               260 | 20 |   RUNNING |   WAITING |
+|               270 | 20 |   WAITING |     READY |
+|               270 | 20 |     READY |   RUNNING |
+|               280 | 20 |   RUNNING |   WAITING |
+|               290 | 20 |   WAITING |     READY |
+|               290 | 20 |     READY |   RUNNING |
+|               300 | 20 |   RUNNING |   WAITING |
+|               310 | 20 |   WAITING |     READY |
+|               310 | 20 |     READY |   RUNNING |
+|               320 | 20 |   RUNNING |   WAITING |
+|               330 | 20 |   WAITING |     READY |
+|               330 | 20 |     READY |   RUNNING |
+|               340 | 20 |   RUNNING |   WAITING |
+|               350 | 20 |   WAITING |     READY |
+|               350 | 20 |     READY |   RUNNING |
+|               360 | 20 |   RUNNING |   WAITING |
+|               370 | 20 |   WAITING |     READY |
+|               370 | 20 |     READY |   RUNNING |
+|               380 | 20 |   RUNNING |   WAITING |
+|               390 | 20 |   WAITING |     READY |
+|               390 | 20 |     READY |   RUNNING |
+|               400 | 20 |   RUNNING |   WAITING |
+|               410 | 20 |   WAITING |     READY |
+|               410 | 20 |     READY |   RUNNING |
+|               420 | 20 |   RUNNING |   WAITING |
+|               430 | 20 |   WAITING |     READY |
+|               430 | 20 |     READY |   RUNNING |
+|               440 | 20 |   RUNNING |   WAITING |
+|               450 | 20 |   WAITING |     READY |
+|               450 | 20 |     READY |   RUNNING |
+|               460 | 20 |   RUNNING |   WAITING |
+|               470 | 20 |   WAITING |     READY |
+|               470 | 20 |     READY |   RUNNING |
+|               480 | 20 |   RUNNING |   WAITING |
+|               490 | 20 |   WAITING |     READY |
+|               490 | 20 |     READY |   RUNNING |
+|               500 | 20 |   RUNNING |   WAITING |
+|               510 | 20 |   WAITING |     READY |
+|               510 | 20 |     READY |   RUNNING |
+|               520 | 20 |   RUNNING |   WAITING |
+|               530 | 20 |   WAITING |     READY |
+|               530 | 20 |     READY |   RUNNING |
+|               540 | 20 |   RUNNING |   WAITING |
+|               550 | 20 |   WAITING |     READY |
+|               550 | 20 |     READY |   RUNNING |
+|               560 | 20 |   RUNNING |   WAITING |
+|               570 | 20 |   WAITING |     READY |
+|               570 | 20 |     READY |   RUNNING |
+|               580 | 20 |   RUNNING |TERMINATED |
++------------------------------------------------+

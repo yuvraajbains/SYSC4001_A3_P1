@@ -1,1 +1,5 @@
+bin
 .vscode
+analyze_metrics.py
+metrics_summary.csv
+run_all.ps1

@@ -1,0 +1,13 @@
+--- Memory Usage Log ---
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Free
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Occupied by PID 50
+Stats:
+  Total Memory Used: 2 MB
+  Total Free Memory: 98 MB
+--------------------------------------------------

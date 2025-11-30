@@ -1,0 +1,73 @@
+--- Memory Usage Log ---
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Free
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Free
+Stats:
+  Total Memory Used: 40 MB
+  Total Free Memory: 60 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Occupied by PID 20
+  Part 3 [15MB]: Free
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Free
+Stats:
+  Total Memory Used: 65 MB
+  Total Free Memory: 35 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Occupied by PID 20
+  Part 3 [15MB]: Occupied by PID 30
+  Part 4 [10MB]: Free
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Free
+Stats:
+  Total Memory Used: 80 MB
+  Total Free Memory: 20 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Occupied by PID 20
+  Part 3 [15MB]: Occupied by PID 30
+  Part 4 [10MB]: Occupied by PID 40
+  Part 5 [8MB]: Free
+  Part 6 [2MB]: Free
+Stats:
+  Total Memory Used: 90 MB
+  Total Free Memory: 10 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Occupied by PID 20
+  Part 3 [15MB]: Occupied by PID 30
+  Part 4 [10MB]: Occupied by PID 40
+  Part 5 [8MB]: Occupied by PID 50
+  Part 6 [2MB]: Free
+Stats:
+  Total Memory Used: 98 MB
+  Total Free Memory: 2 MB
+--------------------------------------------------
+Time: 0
+Partition Status:
+  Part 1 [40MB]: Occupied by PID 10
+  Part 2 [25MB]: Occupied by PID 20
+  Part 3 [15MB]: Occupied by PID 30
+  Part 4 [10MB]: Occupied by PID 40
+  Part 5 [8MB]: Occupied by PID 50
+  Part 6 [2MB]: Occupied by PID 60
+Stats:
+  Total Memory Used: 100 MB
+  Total Free Memory: 0 MB
+--------------------------------------------------
